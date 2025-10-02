@@ -32,22 +32,28 @@ git clone <your-github-repo-link>
 cd <your-project-folder>
 
 2. Create and activate a virtual environment:
+```bash
 # macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
 
 # Windows (Command Prompt)
+```bash
 python -m venv venv
 venv\Scripts\activate
 3. Install dependencies:
+```bash
 pip install -r requirements.txt
 # Or manually:
+```bash
 pip install openai gradio python-dotenv
 4. Add your OpenAI API key:
 Create a .env file (or OPENAI_API_KEY.env) in the project root:
+```bash
 OPENAI_API_KEY=sk-your_actual_api_key_here
 Usage
 Run the Gradio UI:
+```bash
 python day3_gradio_ui.py
 Open the link in your browser (Gradio will show a local URL).
 Type questions like:
