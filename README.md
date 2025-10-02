@@ -36,14 +36,17 @@ cd <your-project-folder>
 # macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
+```
 
 # Windows (Command Prompt)
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
 # Or manually:
 ```bash
 pip install openai gradio python-dotenv
