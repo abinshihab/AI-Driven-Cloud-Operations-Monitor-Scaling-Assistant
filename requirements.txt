@@ -1,0 +1,14 @@
+# Core dependencies
+openai>=1.0.0        # For calling OpenAI APIs
+requests>=2.31.0     # For general API requests
+
+# Evaluation metrics
+nltk>=3.8.1          # For BLEU score and text processing
+textblob>=0.17.1     # For sentiment analysis (optional)
+
+# Utility
+python-dotenv>=1.0.1 # For managing environment variables
+tqdm>=4.66.1         # For progress bars during evaluation
+
+# (Optional: if using dataframes for logging results)
+pandas>=2.2.0
