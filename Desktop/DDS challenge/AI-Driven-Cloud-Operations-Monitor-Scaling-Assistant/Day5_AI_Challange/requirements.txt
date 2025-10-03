@@ -1,0 +1,5 @@
+gradio
+boto3
+prometheus-client
+numpy
+pandas
